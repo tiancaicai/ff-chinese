@@ -1,0 +1,28 @@
+The following are the commands that I used when editting the articles in the origin directory. It may help you guys someway.
+
+You can also find the complete latex help on http://en.wikibooks.org/wiki/LaTeX.
+
+1. Document Structures
+\documentclass{report}
+\begin{document}
+\chapter{For Want of a Printer}
+\end{document}
+
+\begin{quote}
+\end{quote}
+
+2. Text Formating
+\emph{}               % emphasize, will shown as italic
+
+3. Symbos
+\&                    % the back slash is required
+double quotes: ``(the key above Tab) '' (single quote)
+At the end of line, single quote + double quote: ' ''
+\%
+
+
+4. Others
+Links, need to add "\usepackage{hyperref}" at the begining of the doc.
+\url{}
+\href{mailto:<youremail@address>}{<youremail@address>}
+
